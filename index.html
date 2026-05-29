@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOREA — 한국 거주 외국인을 위한 생활 앱</title>
+  <meta name="description" content="FOREA는 한국에 거주하는 외국인을 위한 종합 생활 앱입니다. 채용, 비자, 커뮤니티, 마켓 서비스를 제공합니다.">
+  <meta property="og:title" content="FOREA — 한국 거주 외국인을 위한 생활 앱">
+  <meta property="og:description" content="채용, 비자, 커뮤니티, 마켓 서비스를 한 앱에서.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #fafafa;
+    }
+    .container { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+    header {
+      background: linear-gradient(135deg, #FF5A36 0%, #FF8A4C 100%);
+      color: white;
+      padding: 64px 24px 80px;
+      text-align: center;
+    }
+    header h1 { font-size: 48px; font-weight: 900; letter-spacing: -1px; margin-bottom: 12px; }
+    header .tagline { font-size: 18px; opacity: 0.95; max-width: 540px; margin: 0 auto; }
+    main { padding: 56px 0 80px; }
+    section { background: white; padding: 32px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    section h2 { font-size: 22px; font-weight: 800; margin-bottom: 16px; color: #FF5A36; }
+    section p { margin-bottom: 12px; color: #333; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 20px; }
+    .feature {
+      padding: 20px; border: 1px solid #eee; border-radius: 8px; background: #fafafa;
+    }
+    .feature .icon { font-size: 28px; margin-bottom: 8px; }
+    .feature .name { font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
+    .feature .desc { font-size: 14px; color: #666; }
+    .info-grid { display: grid; grid-template-columns: 140px 1fr; gap: 12px 24px; align-items: baseline; }
+    .info-grid dt { font-weight: 700; color: #555; }
+    .info-grid dd { color: #1a1a1a; }
+    .links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
+    .links a {
+      display: inline-block; padding: 10px 18px; border-radius: 6px;
+      background: #FF5A36; color: white; text-decoration: none; font-weight: 600;
+      transition: background 0.15s;
+    }
+    .links a:hover { background: #e64a24; }
+    .links a.outline { background: white; color: #FF5A36; border: 1.5px solid #FF5A36; }
+    .links a.outline:hover { background: #FFF5F4; }
+    footer {
+      text-align: center; padding: 32px 24px; color: #888; font-size: 14px;
+      border-top: 1px solid #eee;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 36px; }
+      .info-grid { grid-template-columns: 1fr; gap: 4px 0; }
+      .info-grid dt { margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>FOREA</h1>
+      <p class="tagline">한국에 사는 외국인 정주민을 위한 종합 생활 플랫폼</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>서비스 소개</h2>
+      <p>FOREA는 한국에 거주하는 외국인이 일상에서 마주하는 채용, 비자, 커뮤니티, 식자재 구매 등의 어려움을 한 앱에서 해결할 수 있도록 만들어진 모바일 생활 앱입니다.</p>
+      <p>한국어·English·Tiếng Việt·中文 4개 언어를 지원하며, 신분증 인증을 통해 외국인 정주민만 가입할 수 있는 안전한 커뮤니티를 운영합니다.</p>
+
+      <div class="features">
+        <div class="feature">
+          <div class="icon">🏠</div>
+          <div class="name">홈</div>
+          <div class="desc">맞춤 채용/커뮤니티 추천</div>
+        </div>
+        <div class="feature">
+          <div class="icon">💬</div>
+          <div class="name">커뮤니티</div>
+          <div class="desc">외국인 정주민 게시판</div>
+        </div>
+        <div class="feature">
+          <div class="icon">💼</div>
+          <div class="name">취업</div>
+          <div class="desc">채용공고·아르바이트</div>
+        </div>
+        <div class="feature">
+          <div class="icon">🛂</div>
+          <div class="name">비자</div>
+          <div class="desc">비자 안내·행정사 상담</div>
+        </div>
+        <div class="feature">
+          <div class="icon">🛒</div>
+          <div class="name">마켓</div>
+          <div class="desc">동남아 식재료 쇼핑</div>
+        </div>
+        <div class="feature">
+          <div class="icon">👤</div>
+          <div class="name">MY</div>
+          <div class="desc">프로필·신원 인증</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>사업자 정보</h2>
+      <dl class="info-grid">
+        <dt>상호</dt><dd>포레아</dd>
+        <dt>대표자</dt><dd>박소은</dd>
+        <dt>사업자등록번호</dt><dd>381-15-02712</dd>
+        <dt>이메일</dt><dd><a href="mailto:Forea3@gmail.com">Forea3@gmail.com</a></dd>
+        <dt>서비스</dt><dd>모바일 앱 (Android/iOS)</dd>
+        <dt>주요 결제 수단</dt><dd>신용카드, 카카오페이, 네이버페이 (예정)</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>약관 및 정책</h2>
+      <p>FOREA 서비스 이용과 관련된 약관 및 개인정보처리방침을 확인하실 수 있습니다.</p>
+      <div class="links">
+        <a href="./privacy.html">개인정보처리방침</a>
+        <a class="outline" href="mailto:Forea3@gmail.com?subject=FOREA%20문의">문의하기</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>다운로드 안내</h2>
+      <p>FOREA 앱은 Google Play 스토어를 통해 배포될 예정이며, 현재 내부 테스트 및 결제 시스템 연동 단계에 있습니다.</p>
+      <p>정식 출시 후 본 페이지에 Play Store 다운로드 링크가 추가됩니다.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 포레아 (FOREA). All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
